@@ -1,0 +1,61 @@
+Suggestion Services/ Recomondation System --> 45 Days
+-----------------------------------------
+Category
+-> Travel(Hotels,Flights,train)
+-> Food(resutrants, dishes)
+-> Movie(HOrror, thriller, Adventure)
+-> Spot(Rainy Season, winter, spring, summer)
+-----------------------------------------
+Extra Items
+-> Music
+-> Course
+-> etc
+
+Back-End
+------------------------------------------------------------
+Spring Boot, Kafka, Kubernets, Postgres/Mongo DB(NO SQL), Log4j/Sl4j
+Redis, ElasticSearch/ELK, Prometheus, Grafana, Docker, Helm,
+Swagger
+
+Deployment
+---------
+CICD, Jenkins,AWS/Azure
+
+
+Additional Tools
+--------------------------------
+Git 
+
+
+Front-End
+------------------------------------------------------------
+React
+
+
+Analysis (POC--> Proof of Concecpt)
+
+
+
+Tech Stack Use Cases
+---------------------------------------------------------
+Spring Boot --> Each Microservices(User, Catagoery/Catlog,Recommandation,Notification,Watch, etc )
+Kafka --> Recommendation and event gathering 
+Kubernets --> Deploy Each service in separtae pods, auto scale recommendation Service
+Postgres/ Mongo DB --> Store user data, history, recommendation data
+Log4j/Sl4j --> for log capturing
+Redis --> cache recommendation for fast access
+Elastic Search/ELK(Elastic Logstash Kibana)/EFK --> index searching(filter)
+Docker + ELM --> containerization and deployment
+Promethues + Grafana --> montionring searches and recommendation latency
+
+
+Architectural Structure/Design
+--------------------------------------------------------
+
+
+			
+
+
+
+
+
